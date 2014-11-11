@@ -11,6 +11,10 @@ import android.widget.Button;
 
 public class MainActivity extends Activity implements OnClickListener {
 
+	static {
+		System.loadLibrary("JNICrashHandlerApp");
+	}
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
