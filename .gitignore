@@ -3,3 +3,5 @@ bin/
 obj/
 libs/armeabi/
 libs/x86/
+libs/armeabi-v7a/
+libs/x86_64/
